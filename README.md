@@ -1,3 +1,6 @@
 # TicTacToe.py
 Test Repo
-This is the test upload if you want you can clone else leave it.....its useless tho
+Tic Tac Toe game in python, please play this game in command line or in Jupyter Notebook
+
+
+Enjoy!
