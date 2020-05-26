@@ -12,9 +12,8 @@ computer_choice = ""
 
 
 def choice_to_number(choice):
-    if(choice=="rock"): return 0
-    elif(choice=="paper"): return 1
-    elif(choice=="scissors"): return 2
+   ctn={"rock":0, "paper":1, "scissors":2};
+    return ctn[choice]
     """Convert choice to number."""
     # If choice is 'rock', give me 0
     # If choice is 'paper', give me 1
@@ -22,9 +21,8 @@ def choice_to_number(choice):
 
 
 def number_to_choice(number):
-    if(number==0): return "rock"
-    elif(number==1): return "paper"
-    elif(number==3): return "scissors"
+    ntc={1:"rock",2:"paper",3:"scissor"}
+    return ntc[number]
     """Convert number to choice."""
     # If number is 0, give me 'rock'
     # If number is 1, give me 'paper'
